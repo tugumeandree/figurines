@@ -118,6 +118,22 @@ html {
   color: green;
 }
 
+.logo-hh img{
+  max-height: 140px;
+}
+
+@media (max-width: 375px){
+.home-i6{
+  font-size: 9px;
+}
+.font-libre{
+  font-size: 18px;
+}
+.logo-hh img{
+  max-height: 65px;
+}
+}
+
 .btn-home {
   padding: 4px 14px 4px 14px;
   border-radius: 10px;
@@ -7756,7 +7772,13 @@ a.phone-link {
 
 @media (max-width: 800px) {
   .social-rounded-fixed {
-    bottom: 19vmin;
+    bottom: 14vmin;
+  }
+}
+
+@media (max-width: 360px) {
+  .social-rounded-fixed {
+    bottom: 8vmin;
   }
 }
 
@@ -7849,7 +7871,13 @@ a.phone-link {
 
 @media (max-width: 800px) {
   .copyright-fixed {
-    bottom: 18vmin;
+    bottom: 14vmin;
+  }
+}
+
+@media (max-width: 360px) {
+  .copyright-fixed {
+    bottom: 8vmin;
   }
 }
 
